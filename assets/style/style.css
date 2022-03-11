@@ -13,4 +13,51 @@ body{
 h1 {
     color:red;
     font-family: Yellowtail, sans-serif;
+    letter-spacing: 3px;
+}
+#logo {
+    float:left;
+    font-size: 250%; 
+    line-height: 50px;
+    margin-left: 20px;
+}
+#menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+#menu a {
+    text-decoration: none;
+}
+#menu a:hover {
+    border-bottom: 1px solid red;
+}
+.active {
+    border-bottom: 1px solid red;
+}
+#pizza-image-outer {
+    height: 600px;;
+    width:100%;
+    overflow: hidden;
+}
+#pizza-image {
+    height: 600px;;
+    width:100%;
+    background: url('../images/pizza.jpg') no-repeat center center;
+    animation-name: pizza-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes pizza-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
