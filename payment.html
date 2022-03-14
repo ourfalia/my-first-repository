@@ -23,21 +23,19 @@
     <section>
         <div class="details">
 
-            <form action="" target="_blank" method="post">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" ><br>
-                <label for="phone-number">Phone Number</label><br>
-                <input type="tel" id="phone-number" name="phone-number" ><br><br>
-                <label for="address">Delivery Address</label><br>
-                <input type="text" id="address" name="address" ><br><br>
-                <label for="payment-method">I would like to pay in cash</label><br>
-                <input type="checkbox" id="payment-method" name="payment-method" ><br><br>
-                <input type="submit" value="Submit">
-              </form>
-              <button onclick="document.location='payment.html'" type="submit" class="btn" id="payment-button">Go to Payment Page</button>
+            <form action="" target="_blank" method="get">
+                <label for="cname">Name on Card</label><br>
+                <input type="text" id="cname" name="cardname" ><br>
+                <label for="ccnum">Credit card number</label><br>
+                <input type="text" id="ccnum" name="cardnumber" ><br>
+                <label for="expmonth">Exp Month</label><br>
+                <input type="text" id="expmonth" name="expmonth" ><br>
+                <label for="expyear">Exp Year</label><br>
+                <input type="text" id="expyear" name="expyear" ><br>
+                <input type="submit" value="Pay">
+            </form>
+             
         </div>
-
-
     </section>
 
     
