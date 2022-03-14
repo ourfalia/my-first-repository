@@ -10,16 +10,15 @@ body{
     font-weight: 300;
     background-color: beige;
 }
-h1 {
-    color:red;
-    font-family: Yellowtail, sans-serif;
-    letter-spacing: 3px;
-}
 #logo {
     float:left;
     font-size: 275%; 
     line-height: 50px;
-    margin-left: 2%;
+    margin-left: 4%;
+    margin-bottom: 10px;
+    color:red;
+    font-family: Yellowtail, sans-serif;
+    letter-spacing: 3px;
 }
 #menu {
     font-size: 120%;
@@ -74,7 +73,7 @@ h2 {
     font-family: Lato, sans-serif;
     font-weight: bold;
     letter-spacing: 3px; 
-    padding-top: 15px;
+    padding-top: 5px;
 
 }
 #main a {
@@ -176,19 +175,46 @@ footer p{
     background-color: black;
     padding: 30px;
 }
+
 @media screen and (max-width: 1200px) {
-    #logo {
-        font-size: 275%; 
+    #main{
+        height: auto;
+    }
+    #main img{
+        width: 120px;
+        height:120px;
+    }
+    #main a {
+        padding-left: 120%;
+        padding-bottom: 50px;
+    }
+    #center {
+        width: 100%;
+      }
+    .menus{
+        height: auto;
+        clear: both;
+    }
+    .small-menu{
+        height: auto;
+        clear: both;
+    }
+    .menus div, .small-menu div{
         text-align: center;
-        border: none;
-        
+        clear: both;   
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    #logo {
+        text-align: center;
     }
     #main{
         height: auto;
     }
     #menu li{
         float: none;
-        margin-left: 2%;
+        margin-left: 4%;
        margin-right: 0%;
     }
     #main li{
@@ -199,8 +225,9 @@ footer p{
         padding-left: 0px;
     }
     #center {
-        width: 30%;
+        width: 48%;
         margin: 0 auto;
+        padding-bottom: 30px;
       }
     .menus{
         height: auto;
