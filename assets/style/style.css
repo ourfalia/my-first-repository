@@ -19,7 +19,7 @@ h1 {
     float:left;
     font-size: 275%; 
     line-height: 50px;
-    margin-left: 25px;
+    margin-left: 2%;
 }
 #menu {
     font-size: 120%;
@@ -30,7 +30,7 @@ h1 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    
+    display: inline-block;
 }
 #menu a {
     text-decoration: none;
@@ -44,7 +44,7 @@ h1 {
     border-bottom: 1px solid red;
 }
 #pizza-image-outer {
-    height: 600px;;
+    height: 600px;
     width:100%;
     overflow: hidden;
 }
@@ -175,4 +175,48 @@ footer p{
 #contacts{
     background-color: black;
     padding: 30px;
+}
+@media screen and (max-width: 1200px) {
+    #logo {
+        font-size: 275%; 
+        text-align: center;
+        border: none;
+        
+    }
+    #main{
+        height: auto;
+    }
+    #menu li{
+        float: none;
+        margin-left: 2%;
+       margin-right: 0%;
+    }
+    #main li{
+        float: none;
+    }
+    #main a {
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    #center {
+        width: 30%;
+        margin: 0 auto;
+      }
+    .menus{
+        height: auto;
+        clear: both;
+    }
+    .small-menu{
+        height: auto;
+        clear: both;
+    }
+    #logo {
+        width: 100%;
+        clear: right;
+    }  
+    .menus div, .small-menu div{
+        text-align: center;
+        margin: auto;
+        clear: both;   
+    }  
 }
