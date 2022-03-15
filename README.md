@@ -17,6 +17,12 @@ There is also and option for cash payment otherwise you can click on the go to p
 <img src="assets/images/personal-details.jpg" alt="image of the personal details form">
 <br>
 The last page is the payment page, where there is another form to fill in the payment information.
-
-
+<br>
+<img src="assets/images/payment-details.jpg" alt="image of the payment details form">
+<br>
+The footer section contains contact information including location on Google maps.
+<br>
+<img src="assets/images/contacts.jpg" alt="image of the contacts">
+<br>
+## Testing 
 

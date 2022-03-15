@@ -170,7 +170,7 @@ footer p{
     background-color: black;
     padding: 30px;
 }
-.details input[type=text], input[type=tel], input[type=number] {
+.details input[type=text], .details input[type=tel], .details input[type=number], .details input[type=date] {
     width: 250px;
     padding: 12px 20px;
     margin: 8px 0;
