@@ -47,6 +47,7 @@ body{
 #pizza-image {
     height: 600px;;
     width:100%;
+    background-size: cover;
     background: url('../images/pizza.jpg') no-repeat center center;
     animation-name: pizza-zoom;
     animation-duration: 5s;
